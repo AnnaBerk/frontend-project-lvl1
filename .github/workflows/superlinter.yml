@@ -33,6 +33,12 @@ jobs:
           CI: true
       - name: Run linter
         # Run Linter
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: Run Makefile
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           make lint
 
