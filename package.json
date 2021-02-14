@@ -13,7 +13,8 @@
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "src/bin/brain-even.js"
+    "brain-even": "src/bin/brain-even.js",
+    "brain-nod": "src/bin/brain-nod.js"
   },
   "author": "",
   "license": "ISC",

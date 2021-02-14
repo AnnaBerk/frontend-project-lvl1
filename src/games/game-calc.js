@@ -4,8 +4,8 @@ import generateNumber from '../lib/generateNumber.js';
 const description = 'What is the result of the expression?';
 
 const questionAnswer = () => {
-  const firstNumber = generateNumber(1, 10);
-  const secondNumber = generateNumber(1, 10);
+  const firstNumber = generateNumber(1, 100);
+  const secondNumber = generateNumber(1, 100);
   const operation = generateNumber(1, 3);
   if (operation === 3) {
     const question = `${firstNumber} + ${secondNumber}`;
