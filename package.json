@@ -14,7 +14,8 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "src/bin/brain-even.js",
-    "brain-nod": "src/bin/brain-nod.js"
+    "brain-nod": "src/bin/brain-nod.js",
+    "brain-progression": "src/bin/brain-progression.js"
   },
   "author": "",
   "license": "ISC",
