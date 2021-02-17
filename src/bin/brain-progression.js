@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import runGame from '../games/game-nod.js';
+import runGame from '../games/game-progression.js';
 
 runGame();

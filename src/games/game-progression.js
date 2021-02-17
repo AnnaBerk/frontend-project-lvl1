@@ -7,8 +7,8 @@ const questionAnswer = () => {
   let firstNumber = generateNumber(1, 20);
   const step = generateNumber(1, 10);
   const missNum = generateNumber(2, 9);
-  const correctAnswer = firstNumber + missNum * step;
-  const progression = '';
+  let correctAnswer = firstNumber + missNum * step;
+  let progression = '';
   
   for (let i = 1; i < 10; i += 1){
     let checkPoint = firstNumber + i * step;
