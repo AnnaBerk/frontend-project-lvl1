@@ -7,17 +7,19 @@ const questionAnswer = () => {
   let firstNumber = generateNumber(1, 100);
   const step = generateNumber(1, 50);
   const missNum = generateNumber(0, 9);
-  const progression = [];
+  const correctAnswer = firstNumber + missNum * step;
+  const progression = '';
   let answer;
-  for (let i = 0; i < 9; i++){
+  for (let i = 0; i < 9; i+1){
+    const checkPoint = firstNumber + i * step;
     if ( missNum == i ){
-       progression.push("..");
+       progression += '.. ';
        answer = firstNumber} else {
-      progression.push(firstNumber)};
-      firstNumber = firstNumber + step} 
+      progression += `${checkPoint} `};
+      } 
   
     const question = `${progression}`;
-    const answer = progression;
+    const answer = String(correctAnswer);
    
     return gameData(question, String(answer));
 };
