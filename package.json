@@ -12,7 +12,7 @@
     "url": "git+https://github.com/AnnaBerk/frontend-project-lvl1.git"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js",
+    "brain-games": "src/bin/brain-games.js",
     "brain-even": "src/bin/brain-even.js",
     "brain-nod": "src/bin/brain-nod.js",
     "brain-progression": "src/bin/brain-progression.js",
