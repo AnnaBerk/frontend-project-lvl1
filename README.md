@@ -43,15 +43,4 @@ May I have your name? Sam Hello, Sam!
 
 Question: 25 50 Your answer: 25 Correct! Question: 100 52 Your answer: 4 Correct! Question: 3 9 Your answer: 3 Correct! Congratulations, Sam!
 
-Игра "Простое ли число?"
 
-Определить является ли число простым.
-Пример игры:
-
-Is this number prime? 15
-Игра "Арифметическая прогрессия"
-
-Игроку показывается ряд чисел, образующий арифметическую прогрессию. Игрок должен определить число скрытое двумя точками.
-Пример игры:
-
-What number is missing in this progression? 5 7 9 11 13 .. 17 19 21 23
