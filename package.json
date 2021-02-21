@@ -16,7 +16,7 @@
     "brain-even": "src/bin/brain-even.js",
     "brain-nod": "src/bin/brain-nod.js",
     "brain-progression": "src/bin/brain-progression.js",
-    "brain-prime": "src/bin/brain-progression.js"
+    "brain-prime": "src/bin/brain-prime.js"
   },
   "author": "",
   "license": "ISC",
