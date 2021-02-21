@@ -11,8 +11,8 @@ const greatestCommonDivisor = (x, y) => {
 };
 
 const questionAnswer = () => {
-  const firstNumber = generateNumber(1, 10);
-  const secondNumber = generateNumber(1, 10);
+  const firstNumber = generateNumber(1, 20);
+  const secondNumber = generateNumber(1, 20);
   const question = `${firstNumber} ${secondNumber}`;
   const answer = greatestCommonDivisor(firstNumber, secondNumber);
   return gameData(question, String(answer));
