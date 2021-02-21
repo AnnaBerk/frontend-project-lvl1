@@ -11,7 +11,7 @@ const questionAnswer = () => {
     const question = `${firstNumber} + ${secondNumber}`;
     const answer = firstNumber + secondNumber;
     return gameData(question, String(answer));
-  } else if (operation === 2) {
+  } if (operation === 2) {
     const question = `${firstNumber} - ${secondNumber}`;
     const answer = firstNumber - secondNumber;
     return gameData(question, String(answer));
@@ -20,7 +20,7 @@ const questionAnswer = () => {
   const answer = firstNumber * secondNumber;
   return gameData(question, String(answer));
 };
-  
-  const runGame = () => startGame(description, questionAnswer);
-  
-  export default runGame;
+
+const runGame = () => startGame(description, questionAnswer);
+
+export default runGame;

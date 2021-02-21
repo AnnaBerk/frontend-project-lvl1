@@ -2,8 +2,8 @@ import readlineSync from 'readline-sync';
 import { cons, car, cdr } from '@hexlet/pairs';
 
 export const gameData = (question, answer) => cons(question, answer);
-const getQuestion = importData => car(importData);
-const getCorrectAnswer = importData => cdr(importData);
+const getQuestion = (importData) => car(importData);
+const getCorrectAnswer = (importData) => cdr(importData);
 
 export const startGame = (description, updateGameData) => {
   if (description === false && updateGameData === false) return false;
